@@ -110,9 +110,3 @@ int	ft_printf(const char *str, ...)
 	va_end(list);
 	return (counter);
 }
-
-int main()
-{
-	ft_printf("% d \n", -1);
-	printf("% d \n", -1);
-}
